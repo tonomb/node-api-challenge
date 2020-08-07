@@ -57,6 +57,14 @@ router.delete('/:id', validateId, (req, res) => {
 })
 
 
+//Read project actions 
+router.get('/:id/actions', validateId, (req, res) => {
+  projectDb.getProjectActions(req.params.id)
+    .then(actions =>{
+      res.status(200).json(actions)
+    })
+})
+
 
 
 
