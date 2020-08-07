@@ -12,7 +12,7 @@ server.get('/', (req, res) =>{
   res.status(200).json({message: 'Sprint challenge Running'})
 })
 
-server.use('/project', projectRoutes);
+server.use('/projects', projectRoutes);
 
 server.use('/actions', actionRoutes);
 
