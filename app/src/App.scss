@@ -1,0 +1,45 @@
+
+.App{
+  text-align: center;
+  margin: 0 300px;
+}
+
+.project-card{
+  background-color: aquamarine;
+  border: 1px solid black;
+  margin: 16px;
+}
+
+.actions-card{
+  background-color: mediumslateblue;
+  border: 1px solid black;
+  margin: 16px;
+}
+
+.show-more{
+  text-decoration: underline;
+  display: inline;
+  margin: 0 16px;
+  cursor: pointer;
+  &:hover{
+    font-weight: bold;
+  }
+}
+
+.add{
+  text-decoration: underline;
+  display: inline;
+  margin: 0 16px;
+  cursor: pointer;
+  &:hover{
+    font-weight: bold;
+  }
+}
+
+.add-form{
+  margin: 16px;
+
+  input{
+    margin: 0 8px;
+  }
+}
